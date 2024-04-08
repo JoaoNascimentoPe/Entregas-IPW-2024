@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
+    color: white;
+    height: 80px;
+}
+#header img{
+    width: 50px;
+}
+#usuario{
+    display: flex;
+    padding: 2px;
+    margin: 5px;
+}
+#nome{
+    margin-left: 5px;
+}
+#semestre{
+    margin-right: 5px;
+}
+
+#main{
+    margin: 5px;
+}
