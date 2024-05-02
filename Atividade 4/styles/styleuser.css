@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #121214;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ffffff1a;
+    border-inline: none;
+    margin: 10px;
+    border-top: none;
+}
+
+header a {
+    all:unset;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header h1{
+    font: 300 32px/140% "Roboto", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main section{
+    width: 600px;
+    border: 1px solid #ffffff1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+main section h2{
+    font: 300 22px "Roboto", sans-serif;
+}
+
+main section img{
+    width: 150px;
+    height: 150px;
+}
+
+main section div button{
+    all: unset;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main section #sair{
+    background-color: rgb(245, 111, 111);
+}
+main #sair:hover{
+    background-color: rgb(247, 73, 73);
+}
+
+main section #alterar{
+    background-color: #ffffff;
+    color: #121214;
+}
+main #alterar:hover{
+    background-color: #a7a7a7;
+}
