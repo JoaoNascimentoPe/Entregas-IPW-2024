@@ -1,0 +1,9 @@
+body{
+    background: #FFF url(https://static.todamateria.com.br/upload/oq/ue/o-que-e-universo-og.jpg?class=ogImageWide) no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color: red;
+    border: 2px greenyellow solid;
+}
